@@ -32,30 +32,30 @@
   <remove-project name="CyanogenMod/android_system_core" />
   
   <!-- CM replacements -->
-  <project path="build" name="STS-Dev-Team/android_build" >
+  <project path="build" name="STS-Dev-Team/android_build" revision="jellybean" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <!-- <project path="bionic" name="STS-Dev-Team/android_bionic" /> -->
-  <project path="development" name="STS-Dev-Team/android_development" />
-  <project path="frameworks/av" name="STS-Dev-Team/android_frameworks_av" />
+  <project path="development" name="STS-Dev-Team/android_development" revision="jellybean" />
+  <project path="frameworks/av" name="STS-Dev-Team/android_frameworks_av" revision="jellybean" />
   <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" revision="jellybean-3way" />
-  <project path="frameworks/native" name="STS-Dev-Team/android_frameworks_native" />
-  <project path="hardware/libhardware" name="STS-Dev-Team/android_hardware_libhardware" />
-  <project path="hardware/libhardware_legacy" name="STS-Dev-Team/android_hardware_libhardware_legacy" />
-  <project path="hardware/ril" name="STS-Dev-Team/android_hardware_ril" />
+  <project path="frameworks/native" name="STS-Dev-Team/android_frameworks_native" revision="jellybean" />
+  <project path="hardware/libhardware" name="STS-Dev-Team/android_hardware_libhardware" revision="jellybean" />
+  <project path="hardware/libhardware_legacy" name="STS-Dev-Team/android_hardware_libhardware_legacy" revision="jellybean" />
+  <project path="hardware/ril" name="STS-Dev-Team/android_hardware_ril" revision="jellybean" />
   <project path="hardware/ti/omap4xxx" name="STS-Dev-Team/android_hardware_ti_omap4xxx" revision="jellybean-stock" />
   <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" revision="jellybean" />
-  <project path="packages/apps/Bluetooth" name="STS-Dev-Team/android_packages_apps_Bluetooth" />
-  <project path="packages/apps/Contacts" name="STS-Dev-Team/android_packages_apps_Contacts" />
-  <project path="packages/apps/Mms" name="STS-Dev-Team/android_packages_apps_Mms" />
-  <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" />
-  <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" />
-  <project path="packages/apps/Stk" name="STS-Dev-Team/android_packages_apps_Stk" />
-  <project path="packages/apps/VoiceDialer" name="STS-Dev-Team/android_packages_apps_VoiceDialer" />
-  <project path="packages/providers/ContactsProvider" name="STS-Dev-Team/android_packages_providers_ContactsProvider" />
-  <project path="packages/providers/DrmProvider" name="STS-Dev-Team/android_packages_providers_DrmProvider" />
-  <project path="packages/providers/TelephonyProvider" name="STS-Dev-Team/android_packages_providers_TelephonyProvider" />
-  <project path="system/core" name="STS-Dev-Team/android_system_core" />
+  <project path="packages/apps/Bluetooth" name="STS-Dev-Team/android_packages_apps_Bluetooth" revision="jellybean" />
+  <project path="packages/apps/Contacts" name="STS-Dev-Team/android_packages_apps_Contacts" revision="jellybean" />
+  <project path="packages/apps/Mms" name="STS-Dev-Team/android_packages_apps_Mms" revision="jellybean" />
+  <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="jellybean" />
+  <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" revision="jellybean" />
+  <project path="packages/apps/Stk" name="STS-Dev-Team/android_packages_apps_Stk" revision="jellybean" />
+  <project path="packages/apps/VoiceDialer" name="STS-Dev-Team/android_packages_apps_VoiceDialer" revision="jellybean" />
+  <project path="packages/providers/ContactsProvider" name="STS-Dev-Team/android_packages_providers_ContactsProvider" revision="jellybean" />
+  <project path="packages/providers/DrmProvider" name="STS-Dev-Team/android_packages_providers_DrmProvider" revision="jellybean" />
+  <project path="packages/providers/TelephonyProvider" name="STS-Dev-Team/android_packages_providers_TelephonyProvider" revision="jellybean" />
+  <project path="system/core" name="STS-Dev-Team/android_system_core" revision="jellybean" />
 
   <!-- local devices -->
   <project path="device/motorola/common" name="STS-Dev-Team/android_device_motorola_common" revision="jb" />
