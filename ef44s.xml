@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="gh" />
+
+  <project name="UISS-Dev-Team/android_device_pantech_msm8960-common" path="device/pantech/msm8960-common" remote="gh" revision="jellybean" />
+  <project name="UISS-Dev-Team/android_device_pantech_ef44s" path="device/pantech/ef44s" remote="gh" revision="jellybean" />
+  <project name="UISS-Dev-Team/android_vendor_pantech_ef44s" path="vendor/pantech/ef44s" remote="gh" revision="cm-10.1" />
+</manifest>
